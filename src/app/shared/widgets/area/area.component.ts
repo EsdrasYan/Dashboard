@@ -8,12 +8,11 @@ import HC_exporting from 'highcharts/modules/exporting';
   templateUrl: './area.component.html',
   styleUrls: ['./area.component.scss']
 })
-export class AreaComponent implements OnInit {
+export class AreaComponent implements OnInit { 
 
-  chartOptions: {};
-
+  
   Highchats = Highcharts;
-
+  chartOptions = {};
   constructor() { }
 
   ngOnInit() {

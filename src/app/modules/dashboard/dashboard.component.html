@@ -2,18 +2,36 @@
     <app-widget-area></app-widget-area>
 </div>
 
+<br>
 
 <mat-divider></mat-divider>
 
-<div>
-    <div>Gráficos de linha </div>
-    <div>Gráficos de linha</div>
-    <div>Gráficos de linha</div>
-    <div>Gráficos de linha</div>
+<br>
+
+<div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="20px" class="start-cards">
+    <mat-card fxFlex="25">
+        <app-widget-card label="Novos Usuários" total="12k" percentage="30"></app-widget-card>
+    </mat-card>
+
+    <mat-card fxFlex="25">
+        <app-widget-card label="Usuários Atualizados" total="5k" percentage="10"></app-widget-card>
+    </mat-card>
+
+    <mat-card fxFlex="25">
+        <app-widget-card label="Usuários Retidos" total="20k" percentage="70"></app-widget-card>
+    </mat-card>
+
+    <mat-card fxFlex="25">
+        <app-widget-card label="Referência" total="18k" percentage="50"></app-widget-card>
+    </mat-card>
+    
 </div>
 
+<br>
 
 <mat-divider></mat-divider>
+
+<br>
 
 <div>
     <div>Tabela</div>

@@ -15,6 +15,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatListModule } from '@angular/material/list';
 import { AreaComponent } from './widgets/area/area.component';
 import { CardComponent } from './widgets/card/card.component';
+import { PieComponent } from './widgets/pie/pie.component';
 
 
 
@@ -25,7 +26,8 @@ import { CardComponent } from './widgets/card/card.component';
     FooterComponent,
     SidebarComponent,
     AreaComponent,
-    CardComponent
+    CardComponent,
+    PieComponent
     
   ],
   imports: [
@@ -45,7 +47,8 @@ import { CardComponent } from './widgets/card/card.component';
   FooterComponent,
   SidebarComponent,
   AreaComponent,
-  CardComponent
+  CardComponent,
+  PieComponent
   
   ]
 })

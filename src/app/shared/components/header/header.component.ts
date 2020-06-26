@@ -6,22 +6,24 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
+ 
 
-  @Output() togglerSideBarForMe: EventEmitter<any> = new EventEmitter() 
+  @Output() togglerSideBarForMe: EventEmitter<any> = new EventEmitter(); 
   toggleSideBarForMe: any;
+  
   
 
   constructor() { }
 
   ngOnInit()  {}
 
-  sideBarToggler() {
+  toggleSideBar() {
     this.toggleSideBarForMe.emit();
     setTimeout(() => {
       window.dispatchEvent(
       new Event('resize')
       );
-    }, 300);
+    }, );
   }
 }
 
